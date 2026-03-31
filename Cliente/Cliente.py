@@ -22,8 +22,9 @@ class Cliente:
     def contas(self, novas_contas: list):
         self._contas = novas_contas
 
-    def realizar_transacao(conta: Conta, transacao):
+    def realizar_transacao(self,conta: Conta, transacao):
         pass
 
-    def adicionar_conta(conta: Conta):
-        pass
+    def adicionar_conta(self,conta: Conta):
+        self._contas.appened(conta)
+        

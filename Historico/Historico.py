@@ -1,8 +1,8 @@
 class Historico:
-
-    def __init__(self, transacao):
-        self._transacao = transacao
+    def __init__(self):
+        self._transacao = []
         pass
-    def adcionar_transacao(transacao):
-        pass
+    def adcionar_transacao(self,transacao):
+        self._tranasacao.appened(transacao)
+        
     
